@@ -1,0 +1,40 @@
+body {
+    background: rgb(145, 145, 248);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container input {
+    height: 2rem;
+    border-radius: .3rem;
+    margin: .5rem;
+    padding-left: .3rem;
+}
+
+.container form button {
+    border-radius: .3rem;
+    border: none;
+    height: 2rem;
+    width: 4rem;
+}
+
+.container a {
+    margin: 1rem;
+}
+
+.p {
+    text-align: center;
+}
